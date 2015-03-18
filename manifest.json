@@ -1,0 +1,20 @@
+{
+  "name": "Duo Mail",
+  "description": "App for Dual GMail Accounts",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
+  },
+  "icons": {
+    "16": "googlemail-16.png",
+    "128": "googlemail-128.png"
+  },
+  "permissions": [
+    "webview"
+  ]
+}
